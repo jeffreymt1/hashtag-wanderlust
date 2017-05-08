@@ -13,7 +13,21 @@
 <header class="hastagwanderlust">
 		<h1>HASHTAG WANDERLUST</h1>
 </header>
-	<div class="carousel">
+	<div class="clearfix">
+		<section class="locationnav">
+				<h2>LOCATIONS:</h2>
+					<ul>
+						<li><a href="bvi.html">BVI</a></li>
+						<li><a href="greece.html">Greece</a></li>
+						<li><a href="iceland.html">Iceland</a></li>
+						<li id="amalfiNav">Amalfi</li>
+					</ul>
+		</section>
+	</div>
+	<div class="carousel" style="margin: 0 40px;">
+			<div><img src="images/bvi_relax.jpg" alt="BVI Sunset"></div>
+			<div><img src="images/bvi_boats.jpg" alt="BVI Boats"></div>
+			<div><img src="images/bvi_random1.jpg" alt="The British Virgin Islands"></div>
 			<div><img src="images/bvi_relax.jpg" alt="BVI Sunset"></div>
 			<div><img src="images/bvi_boats.jpg" alt="BVI Boats"></div>
 			<div><img src="images/bvi_random1.jpg" alt="The British Virgin Islands"></div>
@@ -21,33 +35,22 @@
 	<div class="clearfix">
 		<section class="todo">
 				<ul>
-					<li>ROAM</li>
-					<li>RELAX</li>
-					<li>RAGE</li>
-					<li>RANDOM</li>
+					<li id="roam">ROAM</li>
+					<li id="relax">RELAX</li>
+					<li id="rage">RAGE</li>
+					<li id="random">RANDOM</li>
 				</ul>
 		</section>
 	</div>
-	<div class="clearfix">
-		<section class="locationnav">
-				<h2>Locations</h2>
-					<ul>
-						<li>BVI</li>
-						<li>Greece</li>
-						<li>Iceland</li>
-						<li>Amalfi</li>
-					</ul>
-		</section>
-	</div>
 		<section class="locations">
-			<p class="bvi">BVI</p>
-			<p class="greece">Greece</p>
-			<p class="iceland">Iceland</p>
-			<p class="amalfi">Amalfi</p>
+			<p class="bvi"><a href="bvi.html">BVI</a></p>
+			<p class="greece"><a href="greece.html">Greece</a></p>
+			<p class="iceland"><a href="iceland.html">Iceland</a></p>
+			<p class="amalfi">Amalfi<br><span id="comingSoon">Coming September 2017!</span></br></p>
 		</section>
 <footer>
 	<section class="about">
-		<h2>About</h2>
+		<h2>INFO:</h2>
 				<ul>
 					<li>Facebook</li>
 					<li>Instagram</li>
@@ -56,15 +59,18 @@
 				</ul>
 	</section>
 	<p>Copyright 2017. HashtagWanderlust.com</p>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
   	<!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
   	<script type="text/javascript" src="slick/slick.js"></script>
   	<script type="text/javascript">
   	$(document).ready(function(){
-  	$('.carousel').slick({ 
-  		infinite: true,
-	  slidesToShow: 3,
-	  slidesToScroll: 3
+  	$('.carousel').slick({
+  		dots: false, 
+  		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 3000,
 	});
 	});
 </script>

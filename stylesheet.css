@@ -41,18 +41,26 @@ h1 {
   background-size: 100%;
   background-repeat: none;
 }
-/************** need to fix the carousel **************/
+/* CAROUSEL*/
 .carousel {
   padding: 25px;
-  height: 600px;
 }
 .carousel img {
-  height: 200px;
+  width: 100%;
+  height: auto;
+}
+.slick-next:before {
+    content: '>'!important;
+    color: black!important;
+}
+.slick-prev:before {
+    content: '<'!important;
+    color: black!important;
 }
 
 /*** MAIN BODY ***/
 
-/* ARTICLE COLUMN */
+/* TODO BUTTONS */
 .todo li {
   float: left;
   width: 200px;
@@ -60,19 +68,40 @@ h1 {
   margin: 15px;
   font-size: 24px;
   list-style: none;
-  background-color: navy;
+  background-color: grey;
   text-align: center;
   color: white;
   padding-top: 75px;
   border-radius: 25px;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
-/************** cannot get below border top to work **************/
+
+/* LOCATION NAV & IMAGES */
 .locationnav {
   height: 75px;
-  color: navy;
-  border-top: 1px;
-  border-color: darkgrey;
+  color: darkgrey;
+  border-color: grey;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: #00D4FF;
+  text-shadow: none;
+}
+
+.amalfi:hover {
+  color: red;
 }
 
 h2 {
@@ -107,7 +136,9 @@ h2 {
     -1px 1px 0 #000,
     1px 1px 0 #000;
 }
-
+.locations {
+  margin-top: 40px; 
+}
 .locations p {
   position: relative;
   width:  1000px;
@@ -125,6 +156,10 @@ h2 {
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
+}
+.locations p span {
+  font-size: 24px;
+  color: red;
 }
 
 .bvi {
@@ -171,4 +206,160 @@ footer {
   width: 100%;
   height: 100px;
 }
+/*_________________*** LOCATION STYLES ***______________*/
 
+/* TODO BUTTONS */
+.locationtodo li {
+  float: left;
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  margin-left: 15px;
+  font-size: 24px;
+  padding-top: 5px;
+  text-align: center;
+  list-style: none;
+  background-color: grey;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+/* ROAM */
+#roamInfo {
+  float: left;
+  width: 35%;
+  margin: 10px;
+}
+#roamInfo p {
+  height: 100px;
+  margin: 10px;
+  color: black;
+}
+#roamPics img {
+  float: right;
+  width: 50%;
+  height: auto;
+  margin: 10px 50px;
+  
+}
+.todoTitle {
+  float: left;
+  width: 100%;
+  margin: 20px;
+  font-size: 24px;
+  padding-left: 10px;
+  color: black;
+  text-align: center;
+  font-weight: 800;
+  text-shadow: 
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #000;
+}
+
+/* RELAX */
+#relaxInfo {
+  float: right;
+  width: 35%;
+  margin: 10px;
+}
+#relaxInfo p {
+  height: 100px;
+  margin: 10px;
+  color: black;
+}
+#relaxPics img {
+  float: left;
+  width: 50%;
+  height: auto;
+  margin: 10px 50px;
+  
+}
+.todoTitle {
+  width: 100%;
+  margin: 20px;
+  font-size: 24px;
+  padding-left: 10px;
+  color: black;
+  text-align: center;
+  font-weight: 800;
+  text-shadow: 
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #000;
+}
+/* RAGE */
+#rageInfo {
+  float: left;
+  width: 35%;
+  margin: 10px;
+}
+#rageInfo p {
+  height: 100px;
+  margin: 10px;
+  color: black;
+}
+#ragePics img {
+  float: right;
+  width: 50%;
+  height: auto;
+  margin: 10px 50px;
+  
+}
+.todoTitle {
+  float: left;
+  width: 100%;
+  margin: 20px;
+  font-size: 24px;
+  padding-left: 10px;
+  color: black;
+  text-align: center;
+  font-weight: 800;
+  text-shadow: 
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #000;
+}
+
+/* RANDOM */
+#randomInfo {
+  float: right;
+  width: 35%;
+  margin: 10px;
+}
+#randomInfo p {
+  height: 100px;
+  margin: 10px;
+  color: black;
+}
+#randomPics img {
+  float: left;
+  width: 50%;
+  height: auto;
+  margin: 10px 50px;
+  
+}
+.todoTitle {
+  width: 100%;
+  margin: 20px;
+  font-size: 24px;
+  padding-left: 10px;
+  color: black;
+  text-align: center;
+  font-weight: 800;
+  text-shadow: 
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #000;
+}
