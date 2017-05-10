@@ -1,44 +1,63 @@
 $(document).ready(function() {
 
+/* 4Rs Bar */
   $('#roam').mouseenter(roamOn);
   function roamOn() {
     event.preventDefault();
-    $('#roam').css('backgroundColor','#00D4FF');
+    $('#roam').css('backgroundImage','URL("images/roamnav.jpg")').css('backgroundSize','cover');
     }
-
   $('#relax').mouseenter(relaxOn);
   function relaxOn() {
     event.preventDefault();
-    $('#relax').css('backgroundColor','#00D4FF');
+    $('#relax').css('backgroundImage','URL("images/relaxnav.jpg")').css('backgroundSize','cover');
     }
-
   $('#rage').mouseenter(rageOn);
   function rageOn() {
     event.preventDefault();
-    $('#rage').css('backgroundColor','#00D4FF');
+    $('#rage').css('backgroundImage','URL("images/ragenav.jpg")').css('backgroundSize','cover');
     }
-
   $('#random').mouseenter(randomOn);
   function randomOn() {
     event.preventDefault();
-    $('#random').css('backgroundColor','#00D4FF');
+    $('#random').css('backgroundImage','URL("images/random.jpg")').css('backgroundSize','cover');
+    }
+  $('#roam, #relax, #rage, #random').mouseleave(mouseOff);
+  function mouseOff() {
+    event.preventDefault();
+    $(this).css('backgroundImage','none');
     }
 
 
-  $('.todo li').mouseleave(mouseOff);
-  function mouseOff() {
+  /* NAVIGATION BAR */
+
+  $('#amalfiNav').mouseenter(comingSoonNavOn);
+  function comingSoonNavOn() {
     event.preventDefault();
-    $(this).css('backgroundColor','grey');
+    $('#amalfiNav').html('');
+    $('#amalfiNav').html('Coming Soon!');
+    }
+  $('#amalfiNav').mouseleave(comingSoonNavOff);
+  function comingSoonNavOff() {
+    event.preventDefault();
+    $('#amalfiNav').html('');
+    $('#amalfiNav').html('Amalfi');
     }
 
 /* Animated Locations*/
 
-  $(window).scroll(function() {    
-      var scroll = $(window).scrollTop();
-      if (scroll >= 900) {
-          $('.bvi').add('html','TEST');
+  /*
+  $(window).scroll(function() {
+    $('.bvi').each(function(){
+    var imagePos = $(this).offset().top;
+
+    var topOfWindow = $(window).scrollTop();
+      if (imagePos < topOfWindow+400) {
+        $(this).addClass("pullDown");
       }
-  });
+    });
+  }); 
+  */
+
 
 /* Coming Soon */
   $('#comingSoon').hide();
@@ -51,13 +70,6 @@ $(document).ready(function() {
   function comingSoonOff() {
     event.preventDefault();
     $('#comingSoon').hide();
-    }
-/********** NEED TO FIX BELOW *********/
-  $('#amalfiNav').mouseenter(amalfiWarning);
-  function amalfiWarning() {
-    event.preventDefault();
-    $('#amalfiNav').removeAttr('li');
-    $('#amalfiNav').addAttr('li','Coming Soon!');
     }
 
 });
