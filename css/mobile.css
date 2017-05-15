@@ -1,0 +1,26 @@
+/******************************************/
+/* Mobile Media Query */
+/*******************************************/
+
+@media(min-width: 320px){
+/* SMALL PORTRAIT SCREENS */
+
+
+}
+
+
+@media(min-width: 480px){
+/* LARGE PORTRAIT SCREENS */
+
+
+
+
+
+
+}
+
+@media(min-width: 640px){
+/* MOBILE LANDSCAPE SCREENS */
+
+
+}
