@@ -109,3 +109,23 @@ $(document).ready(function() {
     $('#randomPic3').fadeIn(900);
   }
 });
+/* MOBILE HAMBURGER */
+$(document).ready(function() {
+  // hide topnav initially
+ if (screen.width < 660) {
+  $('#locationUL').hide();
+} else {
+  $('#locationUL').show();
+}
+
+  $('#hamburger').click(show);
+  function show() {
+    //console.log('got to click')
+    event.preventDefault();
+    if (screen.width < 660) {
+  $('#locationUL').toggle();
+} else {
+  $('#locationUL').show();
+}
+}
+});

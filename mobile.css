@@ -5,13 +5,204 @@
 @media(min-width: 320px){
 /* SMALL PORTRAIT SCREENS */
 
-/* TOP NAVIGATION */
+/* MAIN PAGE */
+
+ul {
+	margin: 0px;
+	padding: 0px;
+
+}
+.todo li {
+	display: none;
+}
 
 
+h1 {
+ height: 75px;
+ font-size: 60px;
+ background-image: none;
+ background-color: black;
+ height: 100px;
+ width: 90%;
+ float: left;
+}
 
+h2 {
+	display: none;
+}
+
+.waderlust img {
+  display: none;
+  color: black;
+}
+
+.locationnav {
+  height: 100px;
+  color: darkgrey;
+  border-color: grey;
+}
+
+.locationnav li {
+  display: block;
+  width: 100%;
+  height: 75px;
+  margin: 0px;
+  font-size: 48px;
+  border-radius: 0px;
+  padding: 0px;
+
+}
+p.locationMobile {
+	font-size: 55px;
+	color: black;
+	text-align: center;
+	border-top: solid;
+	padding-top: 45px;
+}
+p.infoMobile {
+	font-size: 55px;
+	color: black;
+	text-align: center;
+	border-top: solid;
+	padding-top: 45px;
+}
+.locations p {
+	height: 500px;
+}
+
+.about li {
+  display: block;
+  width: 50%;
+  float: left;
+  height: 150px;
+  margin: 0px;
+  font-size: 50px;
+  border-radius: 0px;
+  padding: 10px;
+}
+.about a {
+  padding-top: 20px;
+}
+.copyright {
+	font-size: 32px;
+	color: black;
+	padding: 10px;
+}
+
+/* ARTICLE PAGES */
+
+ul {
+	margin: 0px;
+	padding: 0px;
 
 }
 
+h1 {
+ height: 75px;
+ font-size: 60px;
+ background-image: none;
+ background-color: black;
+ height: 100px;
+ width: 90%;
+ float: left;
+}
+
+h2 {
+	display: none;
+}
+
+.waderlust img {
+  display: none;
+  color: black;
+}
+
+.locationtodo {
+  height: 100px;
+  color: darkgrey;
+  border-color: grey;
+}
+
+.locationtodo li {
+  display: block;
+  width: 100%;
+  height: 75px;
+  margin: 0px;
+  font-size: 48px;
+  border-radius: 0px;
+  padding: 0px;
+
+}
+p.locationMobile {
+	font-size: 55px;
+	color: black;
+	text-align: center;
+	border-top: solid;
+	padding-top: 45px;
+}
+p.infoMobile {
+	font-size: 55px;
+	color: black;
+	text-align: center;
+	border-top: solid;
+	padding-top: 45px;
+}
+.locations p {
+	height: 500px;
+}
+
+.about li {
+  display: block;
+  width: 50%;
+  float: left;
+  height: 150px;
+  margin: 0px;
+  font-size: 50px;
+  border-radius: 0px;
+  padding: 10px;
+}
+.about a {
+  padding-top: 20px;
+}
+.copyright {
+	font-size: 32px;
+	color: black;
+	padding: 10px;
+}
+
+/* HAMBURGER ICON */
+#hamburger {
+    display: inline-block;
+    cursor: pointer;
+    width: 10%;
+    float: left;
+    padding: 30px;
+    background-color: black;
+}
+
+	.bar1, .bar2, .bar3 {
+	    width: 35px;
+	    height: 5px;
+	    background-color: white;
+	    margin: 6px 0;
+	    transition: 0.4s;
+	}
+
+	.change .bar1 {
+	    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+	    transform: rotate(-45deg) translate(-9px, 6px) ;
+	}
+
+	.change .bar2 {opacity: 0;}
+
+	.change .bar3 {
+	    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+	    transform: rotate(45deg) translate(-8px, -8px) ;
+	}
+
+}
+.locationtodo {
+	background-color: black;
+}
 
 @media(min-width: 480px){
 /* LARGE PORTRAIT SCREENS */

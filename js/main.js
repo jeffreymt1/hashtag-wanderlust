@@ -43,20 +43,26 @@ $(document).ready(function() {
     $('#amalfiNav').html('Amalfi');
     }
 
-/* Animated Locations*/
+/* MOBILE HAMBURGER */
+$(document).ready(function() {
+  // hide topnav initially
+ if (screen.width < 660) {
+  $('#locationUL').hide();
+} else {
+  $('#locationUL').show();
+}
 
-  /*
-  $(window).scroll(function() {
-    $('.bvi').each(function(){
-    var imagePos = $(this).offset().top;
-
-    var topOfWindow = $(window).scrollTop();
-      if (imagePos < topOfWindow+400) {
-        $(this).addClass("pullDown");
-      }
-    });
-  }); 
-  */
+  $('#hamburger').click(show);
+  function show() {
+    //console.log('got to click')
+    event.preventDefault();
+    if (screen.width < 660) {
+  $('#locationUL').toggle();
+} else {
+  $('#locationUL').show();
+}
+}
+});
 
 
 /* Coming Soon */

@@ -5,11 +5,132 @@
 @media(min-width: 1000px){
 /* DESKTOP */
 
-
+html {
+	background-color: white;
+}
+body {
+  max-width: 1000px;
+  margin: auto;
+  background-color: lightgrey;
+}
 
 /* TOP NAVIGATION */
-
-
-
-
+h1 {
+ background-image: url("images/header2.png");
+  color: white;
+  text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+ height: 75px;
+ text-align: center;
+ padding: 10px;
+ font-size: 44px;
+ margin: 0px;
+ width: 100%;
 }
+
+.waderlust img {
+  width: 1000px;
+  position: relative;
+  background-size: 100%;
+  background-repeat: none;
+}
+
+.todo li {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 15px;
+  font-size: 24px;
+  list-style: none;
+  padding-top: 75px;
+}
+h2 {
+	display: inline;
+	color: white;
+}
+
+p.locationMobile {
+	display: none;
+}
+p.infoMobile {
+	display: none;
+}
+
+.locations p {
+  width:  1000px;
+  height: 500px;
+}
+h2 {
+	display: block;
+}
+.todo li {
+	display: block;
+}
+#hamburger {
+	display: none;
+}
+.locationnav {
+  height: 75px;
+  color: darkgrey;
+  border-color: grey;
+}
+.locationnav li {
+  float: left;
+  width: 175px;
+  height: 50px;
+  margin: 10px;
+  font-size: 24px;
+  padding-top: 5px;
+  text-align: center;
+  list-style: none;
+  background-color: grey;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.todo {
+	margin: 20px;
+	padding: 20px;
+}
+
+/*  ABOUT SECTION  */
+.about li {
+  float: left;
+  display: block;
+  width: 175px;
+  height: 50px;
+  margin: 10px;
+  font-size: 24px;
+  padding-top: 5px;
+  text-align: center;
+  list-style: none;
+  background-color: grey;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.about a {
+  padding-top: 20px;
+}
+.copyright {
+	font-size: 16px;
+	color: black;
+	padding: 10px;
+}
+
