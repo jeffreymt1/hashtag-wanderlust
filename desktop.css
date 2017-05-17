@@ -101,6 +101,9 @@ h2 {
 	margin: 20px;
 	padding: 20px;
 }
+#amalfiNav {
+  display: block;
+}
 
 /*  ABOUT SECTION  */
 .about li {
@@ -124,7 +127,6 @@ h2 {
     -1px 1px 0 #000,
     1px 1px 0 #000;
 }
-
 .about a {
   padding-top: 20px;
 }
@@ -134,3 +136,153 @@ h2 {
 	padding: 10px;
 }
 
+/*_________________*** LOCATION STYLES ***______________*/
+
+/* BELOW REMOVES IMAGES THAT SHOW BELOW TEXT ON MOBILE*/
+.mobilePix {
+  display: none;
+}
+.desktopPix {
+  display: block;
+}
+
+/* TODO BUTTONS */
+.locationtodo {
+  background-color: lightgrey;
+}
+.locationtodo li {
+  float: left;
+  width: 175px;
+  height: 50px;
+  margin: 10px;
+  margin-left: 15px;
+  font-size: 24px;
+  padding-top: 5px;
+  text-align: center;
+  list-style: none;
+  background-color: grey;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+h3 {
+  margin: 0;
+  padding-left: 20px 20px;
+}
+.todoTitle {
+  float: left;
+  width: 100%;
+  margin: 20px;
+  font-size: 24px;
+  padding-left: 10px;
+  text-align: center;
+  font-weight: 800;
+  text-shadow: 
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #000;
+}
+.about p {
+  background-color: lightgrey;
+  color: black;
+}
+h3 {
+  border-top: none;
+  margin: 20px;
+  padding: 5px
+}
+
+/* ROAM */
+#roamInfo {
+  float: left;
+  width: 40%;
+  padding: 10px 25px;
+}
+#roamInfo p {
+  padding: 5px 10px;
+  color: black;
+}
+#roamPics {
+  float: left;
+  width: 60%;
+  height: auto;
+  padding: 25px 25px;
+}
+#roamPics img {
+  width: 100%;
+  height: auto;
+}
+
+/* RELAX */
+#relaxInfo {
+  float: left;
+  width: 40%;
+  padding: 10px 25px;
+}
+#relaxInfo p {
+  padding: 5px 10px;
+  color: black;
+}
+#relaxPics {
+  float: left;
+  width: 60%;
+  height: auto;
+  padding: 25px 25px;
+}
+#relaxPics img {
+  width: 100%;
+  height: auto;
+}
+
+/* RAGE */
+#rageInfo {
+  float: left;
+  width: 40%;
+  padding: 10px 25px;
+}
+#rageInfo p {
+  padding: 5px 10px;
+  color: black;
+}
+#ragePics {
+  float: left;
+  width: 60%;
+  height: auto;
+  padding: 25px 25px;
+}
+#ragePics img {
+  width: 100%;
+  height: auto;
+}
+
+/* RANDOM */
+#randomInfo {
+  float: left;
+  width: 40%;
+  padding: 10px 25px;
+}
+#randomInfo p {
+  padding: 5px 10px;
+  color: black;
+}
+#randomPics {
+  float: left;
+  width: 60%;
+  height: auto;
+  padding: 25px 25px;
+}
+#randomPics img {
+  width: 100%;
+  height: auto;
+}
+#travelzoo {
+  color: blue;
+  text-decoration: underline;
+}

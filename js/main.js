@@ -1,34 +1,30 @@
 $(document).ready(function() {
 
 /* 4Rs Bar */
-  $('#roam').mouseenter(roamOn);
-  function roamOn() {
-    event.preventDefault();
-    $('#roam').css('backgroundImage','URL("images/roamnav.jpg")').css('backgroundSize','cover');
-    }
-  $('#relax').mouseenter(relaxOn);
-  function relaxOn() {
-    event.preventDefault();
-    $('#relax').css('backgroundImage','URL("images/relaxnav.jpg")').css('backgroundSize','cover');
-    }
-  $('#rage').mouseenter(rageOn);
-  function rageOn() {
-    event.preventDefault();
-    $('#rage').css('backgroundImage','URL("images/ragenav.jpg")').css('backgroundSize','cover');
-    }
-  $('#random').mouseenter(randomOn);
-  function randomOn() {
-    event.preventDefault();
-    $('#random').css('backgroundImage','URL("images/random.jpg")').css('backgroundSize','cover');
-    }
-  $('#roam, #relax, #rage, #random').mouseleave(mouseOff);
-  function mouseOff() {
-    event.preventDefault();
-    $(this).css('backgroundImage','none');
-    }
+  $('.r4').mouseenter(function() {
+    $(this).find('.rollOff').hide();
+    $(this).find('.rollOn').show();
+ 
+ if ($(this).attr('id') === 'roam') {
+    $(this).css('backgroundImage','URL("images/roamnav.jpg")').css('backgroundSize','cover');
+ } if
+    ($(this).attr('id') === 'relax') {
+    $(this).css('backgroundImage','URL("images/relaxnav.jpg")').css('backgroundSize','cover');
+ } if
+    ($(this).attr('id') === 'rage') {
+    $(this).css('backgroundImage','URL("images/ragenav.jpg")').css('backgroundSize','cover');
+ } if
+    ($(this).attr('id') === 'random') {
+    $(this).css('backgroundImage','URL("images/random.jpg")').css('backgroundSize','cover');
+ }
+  });
+  $('.r4').mouseleave(function() {
+      $(this).find('.rollOff').show();
+      $(this).find('.rollOn').hide();
+      $(this).css('backgroundImage', 'none');
+  });
 
-
-  /* NAVIGATION BAR */
+/* NAVIGATION BAR */
 
   $('#amalfiNav').mouseenter(comingSoonNavOn);
   function comingSoonNavOn() {
@@ -46,17 +42,16 @@ $(document).ready(function() {
 /* MOBILE HAMBURGER */
 $(document).ready(function() {
   // hide topnav initially
- if (screen.width < 660) {
+ if (screen.width < 769) {
   $('#locationUL').hide();
 } else {
   $('#locationUL').show();
 }
-
   $('#hamburger').click(show);
   function show() {
     //console.log('got to click')
     event.preventDefault();
-    if (screen.width < 660) {
+    if (screen.width < 769) {
   $('#locationUL').toggle();
 } else {
   $('#locationUL').show();
@@ -77,5 +72,4 @@ $(document).ready(function() {
     event.preventDefault();
     $('#comingSoon').hide();
     }
-
 });

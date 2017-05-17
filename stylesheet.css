@@ -21,20 +21,19 @@ html {
 
 /* TOP NAVIGATION */
 h1 {
- background-image: url("images/header2.png");
+  background-image: url("images/header2.png");
   color: white;
   text-shadow: 
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
- height: 75px;
- text-align: center;
- padding: 10px;
- font-size: 44px;
- margin: 0px;
+  height: 75px;
+  text-align: center;
+  padding: 10px;
+  font-size: 44px;
+  margin: 0px;
 }
-
 .waderlust img {
   width: 1000px;
   position: relative;
@@ -50,12 +49,12 @@ h1 {
   height: auto;
 }
 .slick-next:before {
-    content: '>'!important;
-    color: black!important;
+  content: '>'!important;
+  color: black!important;
 }
 .slick-prev:before {
-    content: '<'!important;
-    color: black!important;
+  content: '<'!important;
+  color: black!important;
 }
 
 /*** MAIN BODY ***/
@@ -83,14 +82,15 @@ h1 {
     1px 1px 0 #000;
 }
 
-
 /* LOCATION NAV & IMAGES */
 .locationnav {
   height: 75px;
   color: darkgrey;
   border-color: grey;
 }
-
+.rollOn {
+  display: none;
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -98,7 +98,6 @@ a {
 a:hover {
   text-shadow: none;
 }
-
 .locations a:hover {
   text-shadow: 
     -1px -1px 0 #000,
@@ -106,16 +105,13 @@ a:hover {
     -1px 1px 0 #000,
     1px 1px 0 #000;
 }
-
 .amalfiNav:hover {
   text-decoration: none;
   color: inherit;
 }
-
 .amalfi:hover {
   color: red;
 }
-
 h2 {
   height: 20px;
   margin: 0px;
@@ -127,7 +123,6 @@ h2 {
   color: grey;
   text-align: center;
 }
-
 .locationnav li {
   float: left;
   width: 175px;
@@ -151,7 +146,6 @@ h2 {
 .locations {
   margin-top: 40px; 
 }
-
 .locations p {
   position: relative;
   width:  100%;
@@ -173,7 +167,6 @@ h2 {
 .locations a {
   text-align: center;
 }
-
 .locations a:hover:before {
   content: "";
   display: block;
@@ -181,7 +174,6 @@ h2 {
   background-color: rgba(0,0,0, .3);
   top:0; right: 0; left: 0; bottom: 0;
 }
-
 .locations p span {
   font-size: 24px;
   color: red;
@@ -199,6 +191,7 @@ h2 {
 .amalfi {
   background-image: url("images/amalfi.jpg")
 }
+
 .locations img {
   height: auto;
   position: relative;
