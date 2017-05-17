@@ -17,7 +17,7 @@ h1 {
   height: 75px;
   font-size: 60px;
   background-image: none;
-  background-color: black;
+  background-color: #000000;
   height: 100px;
   width: 90%;
   float: left;
@@ -27,12 +27,12 @@ h2 {
 }
 .waderlust img {
   display: none;
-  color: black;
+  color: #000000;
 }
 .locationnav {
   height: 100px;
-  color: darkgrey;
-  border-color: grey;
+  color: #A9A9A9;
+  border-color: #808080;
 }
 .locationnav li {
   display: block;
@@ -45,14 +45,14 @@ h2 {
 }
 p.locationMobile {
 	font-size: 55px;
-	color: black;
+	color: #000000;
 	text-align: center;
 	border-top: solid;
 	padding-top: 45px;
 }
 p.infoMobile {
 	font-size: 55px;
-	color: black;
+	color: #000000;
 	text-align: center;
 	border-top: solid;
 	padding-top: 45px;
@@ -75,7 +75,7 @@ p.infoMobile {
 }
 .copyright {
 	font-size: 32px;
-	color: black;
+	color: #000000;
 	padding: 10px;
 }
 
@@ -88,7 +88,7 @@ h1 {
   height: 75px;
   font-size: 60px;
   background-image: none;
-  background-color: black;
+  background-color: #000000;
   height: 100px;
   width: 90%;
   float: left;
@@ -98,12 +98,12 @@ h2 {
 }
 .waderlust img {
   display: none;
-  color: black;
+  color: #000000;
 }
 .locationtodo {
   height: 100px;
-  color: darkgrey;
-  border-color: grey;
+  color: #A9A9A9;
+  border-color: #808080;
 }
 .locationtodo li {
   display: block;
@@ -117,14 +117,14 @@ h2 {
 }
 p.locationMobile {
 	font-size: 55px;
-	color: black;
+	color: #000000;
 	text-align: center;
 	border-top: solid;
 	padding-top: 45px;
 }
 p.infoMobile {
 	font-size: 55px;
-	color: black;
+	color: #000000;
 	text-align: center;
 	border-top: solid;
 	padding-top: 45px;
@@ -147,7 +147,7 @@ p.infoMobile {
 }
 .copyright {
 	font-size: 32px;
-	color: black;
+	color: #000000;
 	padding: 10px;
 }
 
@@ -158,12 +158,12 @@ p.infoMobile {
   width: 10%;
   float: left;
   padding: 30px;
-  background-color: black;
+  background-color: #000000;
 }
 	.bar1, .bar2, .bar3 {
     width: 35px;
     height: 5px;
-    background-color: white;
+    background-color: #ffffff;
     margin: 6px 0;
     transition: 0.4s;
 	}
@@ -178,7 +178,7 @@ p.infoMobile {
 	}
 }
 .locationtodo {
-	background-color: black;
+	background-color: #000000;
 }
 #amalfiNav {
   display: none;
@@ -200,7 +200,7 @@ p.infoMobile {
 }
 #roamInfo p {
   padding: 5px 10px;
-  color: black;
+  color: #000000;
 }
 
 /* RELAX */
@@ -211,7 +211,7 @@ p.infoMobile {
 }
 #relaxInfo p {
   padding: 5px 10px;
-  color: black;
+  color: #000000;
 }
 
 /* RAGE */
@@ -222,7 +222,7 @@ p.infoMobile {
 }
 #rageInfo p {
   padding: 5px 10px;
-  color: black;
+  color: #000000;
 }
 
 /* RANDOM */
@@ -233,7 +233,7 @@ p.infoMobile {
 }
 #randomInfo p {
   padding: 5px 10px;
-  color: black;
+  color: #000000;
 }
 
 h3 {
@@ -244,7 +244,7 @@ h3 {
 
 .about {
 	font-size: 32px;
-	color: black;
+	color: #000000;
 	padding: 10px;
 }
 

@@ -1,7 +1,7 @@
 /*** MAIN STYLING ***/
 html {
  box-sizing: border-box;
- background-color: white;
+ background-color: #ffffff;
 }
 *, *::before, *::after {
   box-sizing: inherit;
@@ -13,16 +13,16 @@ html {
 }
 html {
   font-family: 'Open Sans', sans-serif;
-  color: darkgrey;
+  color: #A9A9A9;
   max-width: 100%;
   margin: auto;
-  background-color: lightgrey;
+  background-color: #D3D3D3;
 }
 
 /* TOP NAVIGATION */
 h1 {
   background-image: url("images/header2.png");
-  color: white;
+  color: #ffffff;
   text-shadow: 
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -50,11 +50,11 @@ h1 {
 }
 .slick-next:before {
   content: '>'!important;
-  color: black!important;
+  color: #000000!important;
 }
 .slick-prev:before {
   content: '<'!important;
-  color: black!important;
+  color: #000000!important;
 }
 
 /*** MAIN BODY ***/
@@ -67,14 +67,14 @@ h1 {
   margin: 15px;
   font-size: 24px;
   list-style: none;
-  background-color: grey;
+  background-color: #808080;
   text-align: center;
-  color: white;
+  color: #ffffff;
   padding-top: 75px;
   border-radius: 25px;
   border-style: solid;
-  border-color: white;
-  color: white;
+  border-color: #ffffff;
+  color: #ffffff;
   text-shadow: 
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -85,8 +85,8 @@ h1 {
 /* LOCATION NAV & IMAGES */
 .locationnav {
   height: 75px;
-  color: darkgrey;
-  border-color: grey;
+  color: #A9A9A9;
+  border-color: #808080;
 }
 .rollOn {
   display: none;
@@ -110,7 +110,7 @@ a:hover {
   color: inherit;
 }
 .amalfi:hover {
-  color: red;
+  color: #ff0000;
 }
 h2 {
   height: 20px;
@@ -118,9 +118,9 @@ h2 {
   font-size: 24px;
   padding-left: 10px;
   padding-top: 20px;
-  width: 150px;
+  width: 175px;
   float: left;
-  color: grey;
+  color: #808080;
   text-align: center;
 }
 .locationnav li {
@@ -132,11 +132,11 @@ h2 {
   padding-top: 5px;
   text-align: center;
   list-style: none;
-  background-color: grey;
+  background-color: #808080;
   border-radius: 25px;
   border-style: solid;
-  border-color: white;
-  color: white;
+  border-color: #ffffff;
+  color: #ffffff;
   text-shadow: 
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -153,7 +153,7 @@ h2 {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  color: #ffffff;
   font-size: 100px;
   text-align: center;
   padding-top: 150px;
@@ -176,7 +176,7 @@ h2 {
 }
 .locations p span {
   font-size: 24px;
-  color: red;
+  color: #ff0000;
 }
 
 .bvi {
@@ -206,11 +206,11 @@ h2 {
   padding-top: 5px;
   text-align: center;
   list-style: none;
-  background-color: grey;
+  background-color: #808080;
   border-radius: 25px;
   border-style: solid;
-  border-color: white;
-  color: white;
+  border-color: #ffffff;
+  color: #ffffff;
   text-shadow: 
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -237,11 +237,11 @@ footer {
   padding-top: 5px;
   text-align: center;
   list-style: none;
-  background-color: grey;
+  background-color: #808080;
   border-radius: 25px;
   border-style: solid;
-  border-color: white;
-  color: white;
+  border-color: #ffffff;
+  color: #ffffff;
   text-shadow: 
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -258,7 +258,7 @@ h3 {
   margin: 20px;
   font-size: 24px;
   padding-left: 10px;
-  color: black;
+  color: #000000;
   text-align: center;
   font-weight: 800;
   text-shadow: 
@@ -276,7 +276,7 @@ h3 {
 }
 #roamInfo p {
   padding: 5px 10px;
-  color: black;
+  color: #000000;
 }
 #roamPics {
   float: left;
@@ -297,7 +297,7 @@ h3 {
 }
 #relaxInfo p {
   padding: 5px 10px;
-  color: black;
+  color: #000000;
 }
 #relaxPics {
   float: left;
@@ -318,7 +318,7 @@ h3 {
 }
 #rageInfo p {
   padding: 5px 10px;
-  color: black;
+  color: #000000;
 }
 #ragePics {
   float: left;
@@ -339,7 +339,7 @@ h3 {
 }
 #randomInfo p {
   padding: 5px 10px;
-  color: black;
+  color: #000000;
 }
 #randomPics {
   float: left;
@@ -352,7 +352,7 @@ h3 {
   height: auto;
 }
 #travelzoo {
-  color: blue;
+  color: #0000ff;
   text-decoration: underline;
 }
 .about p {

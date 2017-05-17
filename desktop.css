@@ -6,18 +6,18 @@
 /* DESKTOP */
 
 html {
-	background-color: white;
+	background-color: #ffffff;
 }
 body {
   max-width: 1000px;
   margin: auto;
-  background-color: lightgrey;
+  background-color: #D3D3D3;
 }
 
 /* TOP NAVIGATION */
 h1 {
  background-image: url("images/header2.png");
-  color: white;
+  color: #ffffff;
   text-shadow: 
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -49,7 +49,7 @@ h1 {
 }
 h2 {
 	display: inline;
-	color: white;
+	color: #ffffff;
 }
 
 p.locationMobile {
@@ -74,8 +74,8 @@ h2 {
 }
 .locationnav {
   height: 75px;
-  color: darkgrey;
-  border-color: grey;
+  color: #A9A9A9;
+  border-color: #808080;
 }
 .locationnav li {
   float: left;
@@ -86,11 +86,11 @@ h2 {
   padding-top: 5px;
   text-align: center;
   list-style: none;
-  background-color: grey;
+  background-color: #808080;
   border-radius: 25px;
   border-style: solid;
-  border-color: white;
-  color: white;
+  border-color: #ffffff;
+  color: #ffffff;
   text-shadow: 
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -116,11 +116,11 @@ h2 {
   padding-top: 5px;
   text-align: center;
   list-style: none;
-  background-color: grey;
+  background-color: #808080;
   border-radius: 25px;
   border-style: solid;
-  border-color: white;
-  color: white;
+  border-color: #ffffff;
+  color: #ffffff;
   text-shadow: 
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -132,7 +132,7 @@ h2 {
 }
 .copyright {
 	font-size: 16px;
-	color: black;
+	color: #000000;
 	padding: 10px;
 }
 
@@ -148,7 +148,7 @@ h2 {
 
 /* TODO BUTTONS */
 .locationtodo {
-  background-color: lightgrey;
+  background-color: #D3D3D3;
 }
 .locationtodo li {
   float: left;
@@ -160,11 +160,11 @@ h2 {
   padding-top: 5px;
   text-align: center;
   list-style: none;
-  background-color: grey;
+  background-color: #808080;
   border-radius: 25px;
   border-style: solid;
-  border-color: white;
-  color: white;
+  border-color: #ffffff;
+  color: #ffffff;
   text-shadow: 
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -190,11 +190,11 @@ h3 {
     1px 1px 0 #000;
 }
 .about p {
-  color: black;
+  color: #000000;
   font-size: 16px;
 }
 .about {
-  background-color: lightgrey;
+  background-color: #D3D3D3;
   height: 140px;
 }
 h3 {
@@ -211,7 +211,7 @@ h3 {
 }
 #roamInfo p {
   padding: 5px 10px;
-  color: black;
+  color: #000000;
 }
 #roamPics {
   float: left;
@@ -232,7 +232,7 @@ h3 {
 }
 #relaxInfo p {
   padding: 5px 10px;
-  color: black;
+  color: #000000;
 }
 #relaxPics {
   float: left;
@@ -253,7 +253,7 @@ h3 {
 }
 #rageInfo p {
   padding: 5px 10px;
-  color: black;
+  color: #000000;
 }
 #ragePics {
   float: left;
@@ -274,7 +274,7 @@ h3 {
 }
 #randomInfo p {
   padding: 5px 10px;
-  color: black;
+  color: #000000;
 }
 #randomPics {
   float: left;
@@ -287,6 +287,6 @@ h3 {
   height: auto;
 }
 #travelzoo {
-  color: blue;
+  color: #0000ff;
   text-decoration: underline;
 }
